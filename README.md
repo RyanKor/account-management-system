@@ -42,6 +42,10 @@
 
 ## DB Diagram
 
+- 초안(1st Draft) (2020.11.22 업데이트)
+
+![image](https://user-images.githubusercontent.com/40455392/99901438-4580c080-2ce9-11eb-9a57-9040ae102488.png)
+
 ## 프로젝트 제작 기간
 
 - 2020.11.22 ~ 2020.12.31 (약 40일)
