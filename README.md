@@ -34,7 +34,7 @@
 
 ## Core Functions
 
-- 정리 후 업로드 예정 (Dash Board 기능은 반드시 포함해야함, 예를 들어, 월별 수익/지출 비교 기능 등)
+- [Project Specification](https://github.com/RyanKor/account-management-system/issues/3)
 
 ## UI Design
 
@@ -44,4 +44,4 @@
 
 ## 프로젝트 제작 기간
 
-- 한 달 예상 중
+- 2020.11.22 ~ 2020.12.31 (약 40일)
