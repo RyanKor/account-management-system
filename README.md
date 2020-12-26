@@ -1,6 +1,5 @@
 # Open Source Account Management System
 
-
 ## Purpose
 
 - 개인들은 살아가면서 당연하게 발생하게 되는 수익/지출을 요새 Toss, Bank Salad, Open Banking 등의 서비스로 관리받고 있다.
@@ -18,7 +17,6 @@
 - 이런 필요성들을 느껴서, 제작을 진행하게 되었다.
 
 - 결정적으로 React 고객 관리 시스템 예제([나동빈 유튜버의 리액트 프로그래밍 강좌](https://www.youtube.com/watch?v=9rJmH_WRyLY&list=PLRx0vPvlEmdD1pSqKZiTihy5rplxecNpz&index=17))를 보면서 별로 어렵지 않다는 게 느껴졌고, 빨리 만들어봐야겠다는 생각이 들었다.
-
 
 ## Programming Stack
 
@@ -48,4 +46,14 @@
 
 ## 프로젝트 제작 기간
 
-- 2020.11.22 ~ 2020.12.31 (약 40일)
+- 한 달 예상 중
+
+## 제작 방향성을 잃었을 때
+
+- 리액트로 바로 프로젝트 빌드가 어렵다면, 우선 html과 Vanilla JS로 코드를 짜보자.
+
+- 그리고 리액트로 옮기면 아마 코드 작업 방향이 보다 명확하게 보일 것이다.
+
+- vanilla로 코딩은 이제 어느 정도 되는데, 아무래도 React라는 툴을 사용하면 아직 명확하게 머리에서 못 그리는 것 같다.
+
+- html로 구조를 잡고, React로 살을 붙이자.
