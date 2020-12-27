@@ -1,14 +1,14 @@
 import React from 'react'
-
-
+import logo from '../../img/wordmark_E_B.png' // 로고 호출
+import '../../scss/header.scss'
 const Header = () =>{
     return (
-        <div>
-            <div className="Logo">Logo Image</div>
-            <div className="Payroll">Payroll</div>
-            <div classNam="Employee">Employee Management</div>
-            <div className="Income">Income</div>
-            <div className="Expense">Expense</div>
+        <div  className="header">
+            <img src={logo} alt=""/>
+            <div className="search">
+            <input type="text"/>
+            <button>Search</button>
+            </div>
         </div>
     )
 }
