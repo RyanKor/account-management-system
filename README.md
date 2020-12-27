@@ -28,8 +28,6 @@
 
 - DB : Mongo DB or Maria DB (Node.js로 서버 구성할 때 MongoDB를 많이 활용하긴 하지만, 프로젝트의 목적상 관계형 DB를 필요로 할 가능성이 농후하기 때문에 MariaDB를 사용할 것으로 예상한다. 이 문장은 추후 DB 확정 이후 삭제 예정이다.)
 
-## User Process
-
 ## Core Functions
 
 - 정리 후 업로드 예정 (Dash Board 기능은 반드시 포함해야함, 예를 들어, 월별 수익/지출 비교 기능 등)
@@ -37,8 +35,6 @@
 ## UI Design
 
 - Figma를 사용해 프로토 타이핑 진행 예정
-
-## DB Diagram
 
 ## 프로젝트 제작 기간
 
@@ -53,3 +49,7 @@
 - vanilla로 코딩은 이제 어느 정도 되는데, 아무래도 React라는 툴을 사용하면 아직 명확하게 머리에서 못 그리는 것 같다.
 
 - html로 구조를 잡고, React로 살을 붙이자.
+
+## Brain Stroming
+
+- 직원 급여 대장 서류 일괄 PDF 다운로드 받기
