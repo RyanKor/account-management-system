@@ -9,8 +9,8 @@ import TableRow from '@material-ui/core/TableRow';
 import Title from './Title';
 
 // Generate Order Data
-function createData(id, date, name, position, pretax_pay, posttax_pay) {
-  return { id, date, name, position, pretax_pay, posttax_pay };
+function createData(id, date, name, position, taxcode, posttax_pay) {
+  return { id, date, name, position, taxcode, posttax_pay };
 }
 
 const rows = [
@@ -40,8 +40,8 @@ export default function Orders() {
             <TableCell>Date</TableCell>
             <TableCell>Name</TableCell>
             <TableCell>Position</TableCell>
-            <TableCell>Pre-tax Pay</TableCell>
-            <TableCell align="right">Post-tax Pay</TableCell>
+            <TableCell>Tax code</TableCell>
+            <TableCell align="right">Salary</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -50,7 +50,7 @@ export default function Orders() {
               <TableCell>{row.date}</TableCell>
               <TableCell>{row.name}</TableCell>
               <TableCell>{row.position}</TableCell>
-              <TableCell>{row.pretax_pay}</TableCell>
+              <TableCell>{row.taxcode}</TableCell>
               <TableCell align="right">{row.posttax_pay}</TableCell>
             </TableRow>
           ))}

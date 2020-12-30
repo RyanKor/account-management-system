@@ -10,33 +10,42 @@ import LayersIcon from '@material-ui/icons/Layers';
 import AssignmentIcon from '@material-ui/icons/Assignment';
 // import Link from '@material-ui/core/Link';
 import {Link} from 'react-router-dom'
+import '../../scss/listitem.scss'
 
 
 export const mainListItems = (
   <div>
     <ListItem button>
+    <Link className="nav-btn" color="inherit" to="/">
       <ListItemIcon>
         <DashboardIcon />
       </ListItemIcon>
-      <Link color="inherit" to="/">Dashboard</Link>
+      Dashboard
+    </Link>
     </ListItem>
     <ListItem button>
+    <Link className="nav-btn" color="inherit" to="/payroll">
       <ListItemIcon>
         <PeopleIcon />
       </ListItemIcon>
-      <Link color="inherit" to="/payroll">Payroll</Link>
+      Payroll
+    </Link>
     </ListItem>
     <ListItem button>
-      <ListItemIcon>
-        <BarChartIcon />
-      </ListItemIcon>
-      <Link color="inherit" to="/income">Income</Link>
+      <Link className="nav-btn" color="inherit" to="/income">
+        <ListItemIcon>
+          <BarChartIcon />
+        </ListItemIcon>
+        Income
+      </Link>
     </ListItem>
     <ListItem button>
+    <Link className="nav-btn" color="inherit" to="/expenditure">
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      <Link color="inherit" to="/expenditure">Expenditure</Link>
+      Expenditure
+    </Link>
     </ListItem>
   </div>
 );
