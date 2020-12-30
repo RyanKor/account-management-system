@@ -1,0 +1,11 @@
+.nav-btn {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  &:hover {
+    color: #f08888;
+    transition: ease-in 0.3s;
+  }
+}

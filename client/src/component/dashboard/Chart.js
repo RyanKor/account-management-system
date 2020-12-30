@@ -22,10 +22,10 @@ const data = [
 
 export default function Chart() {
   const theme = useTheme();
-
+  const newDate = `${new Date().getFullYear()}.` + `${new Date().getMonth()}`
   return (
     <React.Fragment>
-      <Title>This Month</Title>
+      <Title>{newDate} Payroll Tracking</Title>
       <ResponsiveContainer>
         <LineChart
           data={data}
