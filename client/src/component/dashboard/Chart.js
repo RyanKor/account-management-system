@@ -22,7 +22,9 @@ const data = [
 
 export default function Chart() {
   const theme = useTheme();
-  const newDate = `${new Date().getFullYear()}.` + `${new Date().getMonth()}`
+  const calendar = new Date()
+  const month = calendar.getMonth() + 1 < 10 ? '0'+`${calendar.getMonth()+1}` : calendar.getMonth() +1
+  const newDate = `${calendar.getFullYear()}.` + `${month}`
   return (
     <React.Fragment>
       <Title>{newDate} Payroll Tracking</Title>
