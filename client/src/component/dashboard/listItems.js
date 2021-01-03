@@ -11,8 +11,11 @@ import AssignmentIcon from '@material-ui/icons/Assignment';
 // import Link from '@material-ui/core/Link';
 import {Link} from 'react-router-dom'
 import '../../scss/listitem.scss'
+import Payroll from '../employee/Payroll'
 
 
+
+// JSX 형태로 단순 변수이다. return으로 값을 반환하지 않는다.
 export const mainListItems = (
   <div>
     <ListItem button>
@@ -24,7 +27,7 @@ export const mainListItems = (
     </Link>
     </ListItem>
     <ListItem button>
-    <Link className="nav-btn" color="inherit" to="/payroll">
+    <Link className="nav-btn" color="inherit" to="/payroll" >
       <ListItemIcon>
         <PeopleIcon />
       </ListItemIcon>
@@ -50,6 +53,8 @@ export const mainListItems = (
   </div>
 );
 
+
+// JSX 형태로 단순 변수이다. return으로 값을 반환하지 않는다.
 export const secondaryListItems = (
   <div>
     <ListSubheader inset>Saved reports</ListSubheader>
