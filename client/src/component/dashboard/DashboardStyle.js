@@ -65,9 +65,6 @@ const useStyles = makeStyles((theme) => ({
     height: '100vh',
     overflow: 'auto',
   },
-  fixedHeight: {
-    height: 240,
-  },
   container: {
     paddingTop: theme.spacing(4),
     paddingBottom: theme.spacing(4),
@@ -77,7 +74,10 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     overflow: 'auto',
     flexDirection: 'column',
-  }
+  },
+  fixedHeight: {
+    height: 240,
+  },
 }));
 
 export default useStyles
