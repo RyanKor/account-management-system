@@ -16,7 +16,7 @@ function createData(id, date, name, position, taxcode, posttax_pay) {
 const rows = [
   createData(0, '16 Mar, 2019', 'Tran Thuy Tien', 'Translator', 12345678, 312.44),
   createData(1, '16 Mar, 2019', 'Nhu Hoa', 'Marketer', 12345678, 866.99),
-  createData(2, '16 Mar, 2019', 'Viet', 'Editor', 12345678, 100.81),
+  createData(2, '16 Mar, 2019', 'Nguyen Quoc Viet', 'Editor', 12345678, 100.81),
 ];
 
 function preventDefault(event) {
