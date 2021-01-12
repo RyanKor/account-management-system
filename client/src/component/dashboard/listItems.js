@@ -26,7 +26,7 @@ export const mainListItems = (
     </Link>
     </ListItem>
     <ListItem button>
-    <Link className="nav-btn" color="inherit" to="/payroll" >
+    <Link className="nav-btn" color="inherit" to="/employee" >
       <ListItemIcon>
         <PeopleIcon />
       </ListItemIcon>

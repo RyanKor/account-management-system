@@ -135,8 +135,8 @@ const Dashboard = () => {
         <main className={classes.content}>
           <div className={classes.appBarSpacer} />
           <Route exact path="/" render={() => <Main fixedHeightPaper={fixedHeightPaper} />} />
-          <Route path="/payroll" component={Payroll} />
           <Route path="/employee" component={Employee} />
+          {/* <Route path="/employee" component={Employee} /> */}
         </main>
       </div>
     );
