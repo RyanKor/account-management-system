@@ -2,15 +2,15 @@ import React from 'react'
 import TableRow from '@material-ui/core/TableRow'
 import TableCell from '@material-ui/core/TableCell'
 
-const EmployeeList = () => {
+const EmployeeList = ({id, image, name, birthday, gender, job}) => {
     return( 
         <TableRow>
-            <TableCell>{this.props.id}</TableCell>
-            <TableCell><img src={this.props.image} alt="profile"/></TableCell>
-            <TableCell>{this.props.name}</TableCell>
-            <TableCell>{this.props.birthday}</TableCell>
-            <TableCell>{this.props.gender}</TableCell>
-            <TableCell>{this.props.job}</TableCell>
+            <TableCell>{id}</TableCell>
+            <TableCell><img src={image} alt="profile"/></TableCell>
+            <TableCell>{name}</TableCell>
+            <TableCell>{birthday}</TableCell>
+            <TableCell>{gender}</TableCell>
+            <TableCell>{job}</TableCell>
         </TableRow>
      )
 }
